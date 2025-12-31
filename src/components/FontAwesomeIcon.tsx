@@ -10,7 +10,6 @@ export const FontAwesomeIcon = (props: FontAwesomeIconProps) => (
     aria-hidden="true"
     class={`inline-block ${props.class ?? ''}`}
     height="1em"
-    role="img"
     style={{ 'vertical-align': '-0.125em' }}
     viewBox={`0 0 ${props.icon.icon[0]} ${props.icon.icon[1]}`}
     width="1em"
